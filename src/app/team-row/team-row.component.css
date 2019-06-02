@@ -1,0 +1,31 @@
+.teamRow {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 7%;
+	/*border: 2px solid black;*/
+}
+
+.teamRow img {
+	order: 1;
+	width: 14%;
+	border-radius: 50%;
+	/*border: 2px solid black;*/
+}
+
+.teamRow div {
+	order: 2;
+	width: 40%;
+	/*border: 2px solid black;*/
+}
+
+.teamName {
+	font-weight: bold;
+}
+
+.teamRole {
+	font-weight: normal;
+	color: gray;
+}

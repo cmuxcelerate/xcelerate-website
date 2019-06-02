@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ResearchComponent } from './research/research.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { TeamRowComponent } from './team-row/team-row.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     NavbarComponent,
     ResearchComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    TeamRowComponent
   ],
   imports: [
     BrowserModule,
