@@ -1,0 +1,95 @@
+#researchWrapper {
+	display: block;
+	position: relative;
+	width: 60%;
+	margin-left: 20%;
+}
+
+li {
+	font-weight: bold;
+}
+
+.headerRow {
+	font-size: .75em;
+	font-weight: bold;
+}
+
+#ecosystemModel {
+	display: block;
+	position: relative;
+	width: 60%;
+}
+
+#methodIcons {
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#methodIcon1 {
+	order: 1;
+}
+
+#methodIcon2 {
+	order: 2;
+}
+
+#methodIcon3 {
+	order: 3;
+}
+
+#methodIcons div {
+	background-color: #b4d1f2;
+	height: 100px;
+	width: 100px;
+}
+
+#gapModelWrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#gapModel {
+	width: 100%;
+}
+
+.insight {
+	font-weight: bold;
+}
+.insightQuote {
+	display: block;
+	position: relative;
+	width: 40%;
+	margin-left: 35%;
+	padding: 2.5%;
+	background-color: #cfd8dc;
+	font-style: italic;
+}
+
+/*Footer*/
+#footerRow {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#footerContent {
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: right;
+	border-top: 1px solid black;
+}
+
+#footerContent h3 {
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+#footerContent p {
+	font-size: .5em;
+	font-weight: lighter;
+}

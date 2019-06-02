@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+

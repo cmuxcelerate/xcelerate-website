@@ -1,0 +1,37 @@
+#navbarWrapper {
+	margin-top: -10px;
+}
+#navbarLogo {
+	display: inline-block;
+	width: 75%;
+}
+#links {
+	display: inline-block;
+}
+
+img {
+	display: inline-block;
+	position: relative;
+	width: 4%;
+	margin-left: 4%;
+	margin-bottom: 3%;
+}
+
+a {
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	height: 100px;
+	vertical-align: bottom;
+	color: #000;
+	padding: 10px;
+}
+a p {
+	display: inline-block;
+	position: relative;
+	margin-top: 65px;
+}
+.activeLink {
+	background-color: #b4d1f2;
+	color: #FFF;
+}
