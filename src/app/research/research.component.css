@@ -5,13 +5,39 @@
 	margin-left: 20%;
 }
 
+h3	{
+	font-size: 16px !important;
+	font-weight: 600;
+	/*line-height: normal;*/
+}
+
 li {
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .headerRow {
-	font-size: .75em;
-	font-weight: bold;
+	/*font-size: .75em;*/
+	font-size: 12px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+.bodyText {
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	color: #000000;
+}
+
+.bodyText span {
+	font-weight: 600;
 }
 
 #ecosystemModel {
@@ -69,27 +95,6 @@ li {
 	font-style: italic;
 }
 
-/*Footer*/
 #footerRow {
-	display: block;
-	position: relative;
-	width: 100%;
-}
-
-#footerContent {
-	display: block;
-	position: relative;
-	width: 100%;
-	text-align: right;
-	border-top: 1px solid black;
-}
-
-#footerContent h3 {
-	font-size: 1em;
-	font-weight: lighter;
-}
-
-#footerContent p {
-	font-size: .5em;
-	font-weight: lighter;
+	left: 0px !important;
 }

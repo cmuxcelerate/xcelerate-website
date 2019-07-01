@@ -9,6 +9,7 @@ export class TeamRowComponent implements OnInit {
 	@Input() name: string;
 	@Input() role: string;
 	@Input() bio: string;
+	@Input() img: string;
 	constructor() { }
 
 	ngOnInit() {

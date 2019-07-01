@@ -10,22 +10,33 @@
 
 .teamRow img {
 	order: 1;
-	width: 14%;
+	/*width: 14%;*/
+	width: 223px;
 	border-radius: 50%;
 	/*border: 2px solid black;*/
 }
 
 .teamRow div {
 	order: 2;
-	width: 40%;
+	width: 37%;
+	/*width: 498px;*/
 	/*border: 2px solid black;*/
 }
 
+h3	{
+	font-size: 23px;
+	letter-spacing: 0;
+}
 .teamName {
 	font-weight: bold;
 }
 
 .teamRole {
 	font-weight: normal;
-	color: gray;
+	color: #b2b2b2;
+}
+
+p {
+	font-size: 14px;
+	line-height: 26px;
 }

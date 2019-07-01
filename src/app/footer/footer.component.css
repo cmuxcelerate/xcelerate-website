@@ -1,0 +1,36 @@
+/*Footer*/
+#footerRow {
+	display: block;
+	position: relative;
+	width: 66%;
+	/*width: 992px;*/
+	margin-top: 20%;
+	left: 17%;
+	margin-bottom: 1%;
+}
+
+#footerContent {
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: right;
+	border-top: 1px solid black;
+}
+
+#footerContent h3 {
+	/*font-size: 1em;*/
+	font-size: 14px;
+	line-height: 25px;
+	color: #9b9b9b;
+	letter-spacing: 0;
+	font-weight: 600;
+}
+
+#footerContent p {
+	font-size: 10px;
+	color: #b2b2b2;
+	letter-spacing: 0;
+	line-height: 20px;
+	font-weight: 300;
+	/*font-weight: lighter;*/
+}

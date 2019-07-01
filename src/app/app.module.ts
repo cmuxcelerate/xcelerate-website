@@ -9,6 +9,7 @@ import { ResearchComponent } from './research/research.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { TeamRowComponent } from './team-row/team-row.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TeamRowComponent } from './team-row/team-row.component';
     ResearchComponent,
     TeamComponent,
     ContactComponent,
-    TeamRowComponent
+    TeamRowComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
